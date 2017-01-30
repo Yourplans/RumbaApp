@@ -17,7 +17,7 @@
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragmentPlus"
-        android:name="com.rumbaapp.LoginPlus"
+        android:name="com.rumbaapp.login.LoginPlus"
         tools:layout="@layout/fragment_plus" android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
@@ -25,7 +25,7 @@
         <fragment xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/fragmentFacebook"
-            android:name="com.rumbaapp.LoginFacebook"
+            android:name="com.rumbaapp.login.LoginFacebook"
             tools:layout="@layout/fragment_facebook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

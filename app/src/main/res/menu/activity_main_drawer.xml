@@ -3,33 +3,37 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/todos"
+            android:icon="@drawable/todos"
+            android:title="Todos" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/rock"
+            android:icon="@drawable/rock_gesture"
+            android:title="Rock" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/croosover"
+            android:icon="@drawable/quaver"
+            android:title="Crosover" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/antigua"
+            android:icon="@drawable/vinyl"
+            android:title="Recuerdo" />
+        <item
+            android:id="@+id/favoritos"
+            android:icon="@drawable/heart"
+            android:title="Favoritos" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Compartir" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/agregarSitio"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Agregar Sitio" />
         </menu>
     </item>
 
